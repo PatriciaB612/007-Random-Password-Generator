@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <title>Random Password Calculator</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Generate a <span class="green-text">random password</span></h2>
+      <p>Never use an insecure password again.</p>
+      <button onclick="generatePassword()">Generate passwords</button>
+      <hr />
+      <output class="password-one"><p id="password-one-el"></p></output>
+      <output class="password-two"><p id="password-two-el"></p></output>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  margin: 50px auto;
+  background-color: #1f2937;
+}
+
+/*Typography*/
+
+h2 {
+  position: absolute;
+  top: 115px;
+  left: 52px;
+  font-family: Karla;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+
+.green-text {
+  color: #4adf86;
+  display: inline-block;
+}
+
+p {
+  position: absolute;
+  top: 205px;
+  left: 52px;
+  color: #d5d4d8;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin: 0;
+}
+
+button {
+  position: absolute;
+  height: 42px;
+  width: 191px;
+  left: 52px;
+  top: 284px;
+  border-radius: 6px;
+  padding: 9px 17px 9px 15px;
+  background: #10b981;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 0.9em;
+  line-height: 24px;
+  transition: 0.2s linear;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+hr {
+  position: absolute;
+  top: 361px;
+  left: 52px;
+  width: 446px;
+  background: #2f3e53;
+  border: 1px solid #2f3e53;
+  height: 1px;
+  margin: 0;
+}
+
+output {
+  position: absolute;
+  height: 39px;
+  width: 211px;
+  background-color: #273549;
+  top: 396px;
+  left: 287px;
+  border-radius: 6px;
+}
+
+.password-one {
+  left: 52px;
+}
+
+#password-one-el {
+  position: relative;
+  top: 4px;
+  left: 15px;
+  color: #55f991;
+}
+
+#password-two-el {
+  position: relative;
+  top: 4px;
+  left: 15px;
+  color: #55f991;
+}
